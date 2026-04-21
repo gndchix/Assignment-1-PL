@@ -45,7 +45,7 @@ int main(int argc, char ** argv)
     ss >> dayinput >> ch >> monthinput >> ch >> yearinput;
 
     // silahkan uncomment untuk debugging
-    cout << "Tanggal Input: " << dayinput << "/" << monthinput << "/" << yearinput << endl;
+    //cout << "Tanggal Input: " << dayinput << "/" << monthinput << "/" << yearinput << endl;
     // buat tm* untuk tanggal input
     tm* inputTgl = new tm();
     inputTgl->tm_year = yearinput-1900;
